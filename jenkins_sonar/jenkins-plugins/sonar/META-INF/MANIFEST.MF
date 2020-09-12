@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: markrekveld
+Build-Jdk: 11.0.7
+Extension-Name: sonar
+Specification-Title: The Jenkins Plugins Parent POM Project
+Specification-Vendor: SonarSource
+Implementation-Vendor: SonarSource
+Implementation-Title: sonar
+Implementation-Version: 2.12
+Plugin-Class: hudson.plugins.sonar.SonarPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: sonar
+Long-Name: SonarQube Scanner for Jenkins
+Url: http://redirect.sonarsource.com/plugins/jenkins.html
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.12
+Hudson-Version: 2.150.3
+Jenkins-Version: 2.150.3
+Plugin-Dependencies: maven-plugin:2.17;resolution:=optional,workflow-s
+ upport:3.0;resolution:=optional,configurationslicing:1.47;resolution:
+ =optional,credentials:2.1.13,plain-credentials:1.4
+Plugin-Developers: 
+Plugin-License-Name: GNU Lesser General Public License (LGPL), v.3
+Plugin-License-Url: http://www.gnu.org/licenses/lgpl.txt
+Plugin-ScmUrl: https://github.com/jenkinsci/sonarqube-plugin
+
